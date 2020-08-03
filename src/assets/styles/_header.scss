@@ -1,0 +1,19 @@
+.app {
+   &__header {
+      background-color: $color-primary;
+      color: $color-dark;
+      height: 10rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: solid 0.5rem rgba($color-dark, 0.8);
+      border-bottom-width: 70%;
+
+      @media only screen and (max-width: 900px) {
+      }
+
+      &--heading {
+         font-size: 5rem;
+      }
+   }
+}
